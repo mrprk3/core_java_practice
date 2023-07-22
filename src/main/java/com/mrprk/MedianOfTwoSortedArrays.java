@@ -2,7 +2,7 @@ package com.mrprk;
 
 import java.util.Arrays;
 
-public class Girmiti {
+public class MedianOfTwoSortedArrays {
 	public static void main(String[] args) {
 		int[] arr3 = { 1, 3, 5, 7, 8, 9, 13, 16 };
 		int[] arr4 = { 23, 21, 19, 15, 11, 8, 5, 3, 1 };

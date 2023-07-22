@@ -3,7 +3,7 @@ package com.mrprk.array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArrayExample {
+public class SwapArray {
 
 	public static void printMatrix() {
 		int[][] arr = { { 1, 2, 3 }, { 3, 2, 4, 6 }, { 2, 4, 5 } };

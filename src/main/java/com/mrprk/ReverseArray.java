@@ -2,7 +2,7 @@ package com.mrprk;
 
 import java.util.Arrays;
 
-public class ArrayEx {
+public class ReverseArray {
 	public static void swap(int[] arr, int index1, int index2) {
 		int temp = arr[index1];
 		arr[index1] = arr[index2];
@@ -11,7 +11,7 @@ public class ArrayEx {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 5, 4, 3, 2, 1, 5 };
+		int[] arr = { 5, 4, 3, 2, 1 };
 		int s = 0;
 		int e = arr.length - 1;
 		while (s < e) {
