@@ -33,7 +33,7 @@ public class CompareWithCurrentDate {
 	public static boolean isLessThanOrEqualsCurrentDate(String date) {
 		String currentDate = new SimpleDateFormat("MM/dd/yyyy").format(new Date());
 		System.out.println(currentDate);
-		return (Test.compare2Dates(currentDate, date, "MM/dd/yyyy") < 0);
+		return (compare2Dates(currentDate, date, "MM/dd/yyyy") < 0);
 	}
 
 }

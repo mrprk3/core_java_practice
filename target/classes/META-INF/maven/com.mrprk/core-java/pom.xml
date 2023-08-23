@@ -15,6 +15,13 @@
   </properties>
 
   <dependencies>
+	  <!-- https://mvnrepository.com/artifact/com.cedarsoftware/java-util -->
+<dependency>
+    <groupId>com.cedarsoftware</groupId>
+    <artifactId>java-util</artifactId>
+    <version>1.8.0</version>
+</dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
